@@ -1,0 +1,14 @@
+.sheet {
+  width: 800px;
+  height: 460px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.barline {
+  height: 110px;
+  border: 1px solid #888;
+}

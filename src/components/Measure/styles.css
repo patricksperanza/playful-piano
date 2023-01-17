@@ -1,0 +1,44 @@
+.measure {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0 10px;
+  border-bottom: 1px solid gray;
+}
+
+.music-sticker {
+  margin: 10px;
+  line-height: 35px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.tan {
+  background-color: tan;
+}
