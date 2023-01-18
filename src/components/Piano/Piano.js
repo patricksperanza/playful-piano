@@ -25,7 +25,7 @@ import key55 from "./pianoSamples/key55.mp3"
 import key56 from "./pianoSamples/key56.mp3"
 import key57 from "./pianoSamples/key57.mp3"
 
-import "./styles.css"
+import "./Piano.css"
 
 const noteMap = {
   key33,
