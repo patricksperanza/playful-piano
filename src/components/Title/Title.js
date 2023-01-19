@@ -1,11 +1,10 @@
 import React from "react"
-import hotcrossbuns from "./images/hot-cross-buns.png"
-import "./styles.css"
+import "./Title.css"
 
-const Title = () => {
+const Title = ({ title }) => {
   return (
     <div>
-      <img className="title-image" src={hotcrossbuns} alt="title" />
+      <img className="title-image" src={`./images/${title.src}`} alt="title" />
     </div>
   )
 }

@@ -1,6 +1,8 @@
 .main {
+  margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: #f5f2ec;
+  height: 100vh;
 }

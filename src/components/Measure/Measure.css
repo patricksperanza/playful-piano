@@ -1,17 +1,17 @@
 .measure {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
   margin: 0 10px;
   border-bottom: 1px solid gray;
 }
 
 .music-sticker {
   margin: 10px;
-  line-height: 35px;
+  line-height: 40px;
   font-weight: bold;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 

@@ -1,13 +1,13 @@
 import React from "react"
 import Title from "../Title/Title"
-import "./styles.css"
+import "./Header.css"
 import logo from "./cover.png"
 
-const Header = () => {
+const Header = ({ title }) => {
   return (
     <header>
       <img src={logo} alt="piano" className="logo" />
-      <Title className="title" />
+      <Title className="title" title={title} />
       <div className="login">Login</div>
     </header>
   )

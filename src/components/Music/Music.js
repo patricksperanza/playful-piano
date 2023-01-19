@@ -1,12 +1,12 @@
 import React from "react"
 
 import Sheet from "../Sheet/Sheet"
-import "./styles.css"
+import "./Music.css"
 
-const Music = () => {
+const Music = ({ title }) => {
   return (
     <div className="container">
-      <Sheet />
+      <Sheet title={title} />
     </div>
   )
 }

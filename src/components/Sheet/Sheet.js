@@ -1,30 +1,16 @@
 import React from "react"
-import Measure from "../../components/Measure/Measure"
-import "./styles.css"
+import HotCrossBuns from "./HotCrossBuns"
+import TwinkleTwinkle from "./TwinkleTwinkle"
+import RollingAlong from "./RollingAlong"
+import "./Sheet.css"
 
-const Sheet = () => {
+const Sheet = ({ title }) => {
+  console.log(title)
   return (
     <div className="sheet">
-      <div className="row">
-        <Measure notes={["orange", "", "pink", ""]} />
-        <div className="barline"></div>
-        <Measure notes={["green", "", "", ""]} />
-      </div>
-      <div className="row">
-        <Measure notes={["orange", "", "pink", ""]} />
-        <div className="barline"></div>
-        <Measure notes={["green", "", "", ""]} />
-      </div>
-      <div className="row">
-        <Measure notes={["green", "green", "green", "green"]} />
-        <div className="barline"></div>
-        <Measure notes={["pink", "pink", "pink", "pink"]} />
-      </div>
-      <div className="row">
-        <Measure notes={["orange", "", "pink", ""]} />
-        <div className="barline"></div>
-        <Measure notes={["green", "", "", ""]} />
-      </div>
+      {title.name === "HotCrossBuns" && <HotCrossBuns />}
+      {title.name === "TwinkleTwinkle" && <TwinkleTwinkle />}
+      {title.name === "RollingAlong" && <RollingAlong />}
     </div>
   )
 }

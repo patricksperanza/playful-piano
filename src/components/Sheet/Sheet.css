@@ -1,6 +1,6 @@
 .sheet {
   width: 800px;
-  height: 460px;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -9,6 +9,5 @@
 }
 
 .barline {
-  height: 110px;
   border: 1px solid #888;
 }
