@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #f5f2ec;
-  height: 100vh;
+}
+
+body {
+  background-color: #f3f1ee;
+  padding: 0;
 }

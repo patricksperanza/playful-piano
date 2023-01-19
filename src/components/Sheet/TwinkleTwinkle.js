@@ -1,38 +1,38 @@
 import React from "react"
-import Measure from "../Measure/Measure"
+import QuarterMeasure from "../Measure/QuarterMeasure"
 
 const TwinkleTwinkle = () => {
   return (
     <div>
       <div className="row">
-        <Measure notes={["green", "green", "yellow", "yellow"]} />
+        <QuarterMeasure notes={["green", "green", "yellow", "yellow"]} />
         <div className="barline"></div>
-        <Measure notes={["blue", "blue", "yellow", ""]} />
+        <QuarterMeasure notes={["blue", "blue", "yellow", ""]} />
       </div>
       <div className="row">
-        <Measure notes={["purple", "purple", "orange", "orange"]} />
+        <QuarterMeasure notes={["purple", "purple", "orange", "orange"]} />
         <div className="barline"></div>
-        <Measure notes={["pink", "pink", "green", ""]} />
+        <QuarterMeasure notes={["pink", "pink", "green", ""]} />
       </div>
       <div className="row">
-        <Measure notes={["yellow", "yellow", "purple", "purple"]} />
+        <QuarterMeasure notes={["yellow", "yellow", "purple", "purple"]} />
         <div className="barline"></div>
-        <Measure notes={["orange", "orange", "pink", ""]} />
+        <QuarterMeasure notes={["orange", "orange", "pink", ""]} />
       </div>
       <div className="row">
-        <Measure notes={["yellow", "yellow", "purple", "purple"]} />
+        <QuarterMeasure notes={["yellow", "yellow", "purple", "purple"]} />
         <div className="barline"></div>
-        <Measure notes={["orange", "orange", "pink", ""]} />
+        <QuarterMeasure notes={["orange", "orange", "pink", ""]} />
       </div>
       <div className="row">
-        <Measure notes={["green", "green", "yellow", "yellow"]} />
+        <QuarterMeasure notes={["green", "green", "yellow", "yellow"]} />
         <div className="barline"></div>
-        <Measure notes={["blue", "blue", "yellow", ""]} />
+        <QuarterMeasure notes={["blue", "blue", "yellow", ""]} />
       </div>
       <div className="row">
-        <Measure notes={["purple", "purple", "orange", "orange"]} />
+        <QuarterMeasure notes={["purple", "purple", "orange", "orange"]} />
         <div className="barline"></div>
-        <Measure notes={["pink", "pink", "green", ""]} />
+        <QuarterMeasure notes={["pink", "pink", "green", ""]} />
       </div>
     </div>
   )

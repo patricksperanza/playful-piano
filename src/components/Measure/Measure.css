@@ -6,12 +6,21 @@
   border-bottom: 1px solid gray;
 }
 
-.music-sticker {
+.quarter-sticker {
   margin: 10px;
   line-height: 40px;
   font-weight: bold;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+}
+
+.eighth-sticker {
+  margin: 10px 5px;
+  line-height: 25px;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
 }
 

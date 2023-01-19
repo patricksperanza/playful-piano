@@ -36,7 +36,16 @@ const Navbar = ({ changeTitle }) => {
         >
           TWINKLE TWINKLE
         </li>
-        {/* <li>FRERE JACQUES</li> */}
+        <li
+          onClick={() =>
+            changeTitle({
+              name: "FrereJacques",
+              src: "frere-jacques.png",
+            })
+          }
+        >
+          FRERE JACQUES
+        </li>
       </ul>
     </div>
   )
