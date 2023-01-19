@@ -7,6 +7,7 @@ const Navbar = ({ changeTitle }) => {
       <ul>
         <li>HOME</li>
         <li
+          className="easy"
           onClick={() =>
             changeTitle({
               name: "HotCrossBuns",
@@ -17,6 +18,7 @@ const Navbar = ({ changeTitle }) => {
           HOT CROSS BUNS
         </li>
         <li
+          className="easy"
           onClick={() =>
             changeTitle({
               name: "RollingAlong",
@@ -27,6 +29,7 @@ const Navbar = ({ changeTitle }) => {
           ROLLING ALONG
         </li>
         <li
+          className="medium"
           onClick={() =>
             changeTitle({
               name: "TwinkleTwinkle",
@@ -37,6 +40,7 @@ const Navbar = ({ changeTitle }) => {
           TWINKLE TWINKLE
         </li>
         <li
+          className="medium"
           onClick={() =>
             changeTitle({
               name: "FrereJacques",
