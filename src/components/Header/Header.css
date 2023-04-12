@@ -1,23 +1,21 @@
-.logo {
-  width: 220px;
-  margin-right: auto;
-}
-
-header {
+.header {
   margin: 0;
-  background-color: aliceblue;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 2px -2px #cbcbcb;
 }
 
-.title {
-  margin-right: auto;
+.header-icon {
+  width: 25px;
+  height: 25px;
 }
 
-.login {
-  margin-left: auto;
-  margin-right: 20px;
-  width: 200px;
+.header-title {
+  display: block;
+  margin: auto;
+}
+
+.header-logo {
+  width: 220px;
 }

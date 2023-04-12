@@ -2,13 +2,14 @@ import React from "react"
 import Title from "../Title/Title"
 import "./Header.css"
 import logo from "./cover.png"
+import { AiOutlineMenu } from "react-icons/ai"
 
 const Header = ({ title }) => {
   return (
-    <header>
-      <img src={logo} alt="piano" className="logo" />
-      <Title className="title" title={title} />
-      <div className="login">Login</div>
+    <header className="header">
+      {/* <AiOutlineMenu className="header-icon" /> */}
+      <Title className="header-title" title={title} />
+      {/* <img src={logo} alt="piano" className="header-logo" /> */}
     </header>
   )
 }
