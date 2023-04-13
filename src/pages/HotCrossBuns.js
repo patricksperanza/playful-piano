@@ -1,9 +1,10 @@
 import React from "react"
-import QuarterMeasure from "../Measure/QuarterMeasure"
+import QuarterMeasure from "../components/Measure/QuarterMeasure"
+import "./SheetMusic.css"
 
 const HotCrossBuns = () => {
   return (
-    <div>
+    <div className="sheet">
       <div className="row">
         <QuarterMeasure notes={["orange", "", "pink", ""]} />
         <div className="barline"></div>

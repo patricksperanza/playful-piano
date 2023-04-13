@@ -1,5 +1,5 @@
 import React from "react"
-import QuarterMeasure from "../Measure/QuarterMeasure"
+import QuarterMeasure from ".././components/Measure/QuarterMeasure"
 
 const TwinkleTwinkle = () => {
   return (

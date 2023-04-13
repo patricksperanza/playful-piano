@@ -1,5 +1,5 @@
 import React from "react"
-import EighthMeasure from "../Measure/EighthMeasure"
+import EighthMeasure from "../components/Measure/EighthMeasure"
 
 const FrereJacques = () => {
   return (

@@ -2,8 +2,7 @@ import { useState } from "react"
 import Header from "./components/Header/Header"
 import Piano from "./components/Piano/Piano"
 import Sidebar from "./components/Sidebar/Sidebar"
-
-import Music from "./components/Music/Music"
+import { Outlet } from "react-router-dom"
 
 import "./App.css"
 
@@ -25,7 +24,7 @@ function App() {
     <div className="App">
       <Header sidebar={sidebar} showSidebar={show} title={title} />
       <Sidebar sidebar={sidebar} />
-      <Music title={title} />
+      <Outlet />
       <Piano />
     </div>
   )

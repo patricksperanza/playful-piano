@@ -31,6 +31,8 @@
   align-items: center;
   cursor: pointer;
   border-radius: 2px;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px black;
 }
 
 .sidebar-list li:hover {
