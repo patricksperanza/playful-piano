@@ -1,8 +1,13 @@
 #piano {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  width: 784px;
+  margin-left: -387px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 40px auto;
+
   height: 240px;
   padding: 15px;
   background-color: #7f7988;

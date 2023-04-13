@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Header from "./components/Header/Header"
 import Piano from "./components/Piano/Piano"
+import Sidebar from "./components/Sidebar/Sidebar"
 
 import Music from "./components/Music/Music"
 
@@ -11,19 +12,21 @@ function App() {
     name: "HotCrossBuns",
     src: "hot-cross-buns.png",
   })
+  const [sidebar, setSidebar] = useState(false)
+
+  const show = () => {
+    setSidebar(!sidebar)
+  }
 
   const changeTitle = (newTitle) => {
     setTitle(newTitle)
   }
   return (
     <div className="App">
-      <Header title={title} />
-      <div className="main">
-        <div className="song">
-          <Music title={title} />
-          <Piano />
-        </div>
-      </div>
+      <Header sidebar={sidebar} showSidebar={show} title={title} />
+      <Sidebar sidebar={sidebar} />
+      <Music title={title} />
+      <Piano />
     </div>
   )
 }

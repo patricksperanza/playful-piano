@@ -2,14 +2,17 @@ import React from "react"
 import Title from "../Title/Title"
 import "./Header.css"
 import logo from "./cover.png"
-import { AiOutlineMenu } from "react-icons/ai"
+import { FaBars } from "react-icons/fa"
+import { MdOutlinePiano } from "react-icons/md"
+import { IoMdClose } from "react-icons/io"
 
-const Header = ({ title }) => {
+const Header = ({ title, sidebar, showSidebar }) => {
   return (
     <header className="header">
-      {/* <AiOutlineMenu className="header-icon" /> */}
+      {!sidebar && <FaBars className="header-icon" onClick={showSidebar} />}
+      {sidebar && <IoMdClose className="header-icon" onClick={showSidebar} />}
       <Title className="header-title" title={title} />
-      {/* <img src={logo} alt="piano" className="header-logo" /> */}
+      <MdOutlinePiano className="header-piano" />
     </header>
   )
 }
