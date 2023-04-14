@@ -1,5 +1,6 @@
 .sidebar {
   position: fixed;
+  top: 75px;
   left: -100%;
   width: 220px;
   height: 100vh;
@@ -18,6 +19,10 @@
 .sidebar.active {
   left: 0;
   transition: 350ms;
+}
+
+.sidebar-list a {
+  text-decoration: none;
 }
 
 .sidebar-list li {

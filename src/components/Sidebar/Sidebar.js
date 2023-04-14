@@ -1,21 +1,29 @@
 import "./Sidebar.css"
 import { Link } from "react-router-dom"
 
-const Sidebar = ({ sidebar }) => {
+const Sidebar = ({ sidebar, changeTitle }) => {
   return (
     <div className={sidebar ? "sidebar active" : "sidebar"}>
       <ul className="sidebar-list">
         <Link to="/">
-          <li>Hot Cross Buns</li>
-        </Link>
-        <Link to="/frere">
-          <li>Frere Jacques</li>
+          <li onClick={() => changeTitle("hot-cross-buns.png")}>
+            Hot Cross Buns
+          </li>
         </Link>
         <Link to="/rolling">
-          <li>Rolling Along</li>
+          <li onClick={() => changeTitle("rolling-along.png")}>
+            Rolling Along
+          </li>
         </Link>
         <Link to="/twinkle">
-          <li>Twinkle Twinkle</li>
+          <li onClick={() => changeTitle("twinkle-twinkle.png")}>
+            Twinkle Twinkle
+          </li>
+        </Link>
+        <Link to="/frere">
+          <li onClick={() => changeTitle("frere-jacques.png")}>
+            Frere Jacques
+          </li>
         </Link>
       </ul>
     </div>
