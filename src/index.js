@@ -15,7 +15,7 @@ import {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route path="/" element={<HotCrossBuns />} />
+      <Route index element={<HotCrossBuns />} />
       <Route path="/frere" element={<FrereJacques />} />
       <Route path="/twinkle" element={<TwinkleTwinkle />} />
       <Route path="/rolling" element={<RollingAlong />} />

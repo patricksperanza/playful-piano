@@ -1,5 +1,5 @@
-import Header from "../Header/Header"
 import { Outlet } from "react-router-dom"
+import Header from "../Header/Header"
 import "./Song.css"
 
 const Song = ({ sidebar, showSidebar, title }) => {

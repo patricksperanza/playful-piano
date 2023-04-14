@@ -1,28 +1,29 @@
-import React from "react"
+import { data } from "./sheetMusicData"
 import QuarterMeasure from ".././components/Measure/QuarterMeasure"
 
 const RollingAlong = () => {
+  const song = data.rollingAlong
   return (
     <div>
       <div className="row">
-        <QuarterMeasure notes={["orange", "pink", "green", "pink"]} />
+        <QuarterMeasure notes={song[0]} />
         <div className="barline"></div>
-        <QuarterMeasure notes={["orange", "orange", "orange", ""]} />
+        <QuarterMeasure notes={song[1]} />
       </div>
       <div className="row">
-        <QuarterMeasure notes={["pink", "pink", "pink", ""]} />
+        <QuarterMeasure notes={song[2]} />
         <div className="barline"></div>
-        <QuarterMeasure notes={["orange", "orange", "orange", ""]} />
+        <QuarterMeasure notes={song[3]} />
       </div>
       <div className="row">
-        <QuarterMeasure notes={["orange", "pink", "green", "pink"]} />
+        <QuarterMeasure notes={song[4]} />
         <div className="barline"></div>
-        <QuarterMeasure notes={["orange", "orange", "orange", "orange"]} />
+        <QuarterMeasure notes={song[5]} />
       </div>
       <div className="row">
-        <QuarterMeasure notes={["pink", "pink", "orange", "pink"]} />
+        <QuarterMeasure notes={song[6]} />
         <div className="barline"></div>
-        <QuarterMeasure notes={["green", "", "", ""]} />
+        <QuarterMeasure notes={song[7]} />
       </div>
     </div>
   )

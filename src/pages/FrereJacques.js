@@ -1,4 +1,3 @@
-import React from "react"
 import EighthMeasure from "../components/Measure/EighthMeasure"
 
 const FrereJacques = () => {

@@ -1,9 +1,7 @@
 import { useState } from "react"
-import Header from "./components/Header/Header"
-import Piano from "./components/Piano/Piano"
 import Sidebar from "./components/Sidebar/Sidebar"
 import Song from "./components/Song/Song"
-
+import Piano from "./components/Piano/Piano"
 import "./App.css"
 
 function App() {
@@ -16,7 +14,6 @@ function App() {
 
   const changeTitle = (newTitle) => {
     setTitle(newTitle)
-    console.log("click")
   }
   return (
     <div className="App">

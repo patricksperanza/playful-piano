@@ -1,10 +1,9 @@
 import React from "react"
 import Title from "../Title/Title"
-import "./Header.css"
-import logo from "./cover.png"
 import { FaBars } from "react-icons/fa"
 import { MdOutlinePiano } from "react-icons/md"
 import { IoMdClose } from "react-icons/io"
+import "./Header.css"
 
 const Header = ({ title, sidebar, showSidebar }) => {
   return (
