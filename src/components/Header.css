@@ -1,0 +1,23 @@
+.header {
+  margin: auto;
+  height: 75px;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 2px -2px #cbcbcb;
+}
+
+.header-icon {
+  width: 25px;
+  height: 25px;
+  display: block;
+  cursor: pointer;
+}
+
+.header-piano {
+  width: 25px;
+  height: 25px;
+  color: rgb(114, 195, 222);
+  cursor: pointer;
+}
