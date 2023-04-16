@@ -1,7 +1,7 @@
 import { useState } from "react"
-import Sidebar from "./components/Sidebar/Sidebar"
-import Song from "./components/Song/Song"
-import Piano from "./components/Piano/Piano"
+import Sidebar from "./components/Sidebar"
+import Song from "./components/Song"
+import Piano from "./components/Piano"
 import "./App.css"
 
 function App() {

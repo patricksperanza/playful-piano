@@ -1,5 +1,5 @@
 import React from "react"
-import QuarterMeasure from "../components/Measure/QuarterMeasure"
+import QuarterMeasure from "../components/QuarterMeasure"
 import { data } from "./sheetMusicData"
 import "./SheetMusic.css"
 

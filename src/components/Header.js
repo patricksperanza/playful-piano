@@ -1,5 +1,5 @@
 import React from "react"
-import Title from "../Title/Title"
+import Title from "./Title"
 import { FaBars } from "react-icons/fa"
 import { MdOutlinePiano } from "react-icons/md"
 import { IoMdClose } from "react-icons/io"

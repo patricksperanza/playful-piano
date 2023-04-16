@@ -1,5 +1,5 @@
 import { data } from "./sheetMusicData"
-import QuarterMeasure from ".././components/Measure/QuarterMeasure"
+import QuarterMeasure from "../components/QuarterMeasure"
 
 const TwinkleTwinkle = () => {
   const song = data.twinkleTwinkle

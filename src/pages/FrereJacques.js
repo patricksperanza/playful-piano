@@ -1,4 +1,4 @@
-import EighthMeasure from "../components/Measure/EighthMeasure"
+import EighthMeasure from "../components/EighthMeasure"
 
 const FrereJacques = () => {
   return (

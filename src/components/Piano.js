@@ -69,7 +69,7 @@ const Piano = () => {
   }
 
   return (
-    <div id="piano">
+    <div id="piano" className="piano">
       <div className="keys">
         <div className="black-keys">
           <div id="34" className="key black-key" onMouseDown={playNote}></div>

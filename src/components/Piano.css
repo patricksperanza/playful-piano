@@ -1,4 +1,4 @@
-#piano {
+.piano {
   position: fixed;
   left: 50%;
   bottom: 0;
@@ -7,11 +7,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 240px;
   padding: 15px;
   background-color: #7f7988;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 764px) {
+  .piano {
+    display: none;
+  }
 }
 
 .keys {
