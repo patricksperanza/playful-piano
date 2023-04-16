@@ -2,12 +2,13 @@ import EighthMeasure from "../components/EighthMeasure"
 
 const FrereJacques = () => {
   return (
-    <div>
+    <div className="sheet">
       <div className="row">
         <EighthMeasure
           notes={["green", "", "pink", "", "orange", "", "green", ""]}
         />
-        <div className="barline"></div>
+      </div>
+      <div className="row">
         <EighthMeasure
           notes={["green", "", "pink", "", "orange", "", "green", ""]}
         />
@@ -16,7 +17,8 @@ const FrereJacques = () => {
         <EighthMeasure
           notes={["orange", "", "purple", "", "yellow", "", "", ""]}
         />
-        <div className="barline"></div>
+      </div>
+      <div className="row">
         <EighthMeasure
           notes={["orange", "", "purple", "", "yellow", "", "", ""]}
         />
@@ -34,7 +36,8 @@ const FrereJacques = () => {
             "",
           ]}
         />
-        <div className="barline"></div>
+      </div>
+      <div className="row">
         <EighthMeasure
           notes={[
             "yellow",
@@ -52,7 +55,8 @@ const FrereJacques = () => {
         <EighthMeasure
           notes={["green", "", "yellow", "", "green", "", "", ""]}
         />
-        <div className="barline"></div>
+      </div>
+      <div className="row">
         <EighthMeasure
           notes={["green", "", "yellow", "", "green", "", "", ""]}
         />

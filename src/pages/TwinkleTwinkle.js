@@ -4,7 +4,7 @@ import QuarterMeasure from "../components/QuarterMeasure"
 const TwinkleTwinkle = () => {
   const song = data.twinkleTwinkle
   return (
-    <div>
+    <div className="sheet">
       <div className="row">
         <QuarterMeasure notes={song[0]} />
         <div className="barline"></div>

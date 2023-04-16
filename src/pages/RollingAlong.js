@@ -4,7 +4,7 @@ import QuarterMeasure from "../components/QuarterMeasure"
 const RollingAlong = () => {
   const song = data.rollingAlong
   return (
-    <div>
+    <div className="sheet">
       <div className="row">
         <QuarterMeasure notes={song[0]} />
         <div className="barline"></div>

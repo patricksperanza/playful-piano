@@ -20,12 +20,16 @@
 }
 
 .eighth-sticker {
-  margin: 10px 5px;
-  line-height: 25px;
+  margin: 4% 1%;
   font-weight: bold;
-  width: 25px;
-  height: 25px;
+  width: 14%;
   border-radius: 50%;
+}
+
+.eighth-sticker:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .green {
