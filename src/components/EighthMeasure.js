@@ -3,7 +3,7 @@ import "./Measure.css"
 
 const Measure = ({ notes }) => {
   return (
-    <div className="measure">
+    <div className="measure eighth-measure">
       <div className={`${notes[0]} eighth-sticker`}></div>
       <div className={`${notes[1]} eighth-sticker`}></div>
       <div className={`${notes[2]} eighth-sticker`}></div>

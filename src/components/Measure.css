@@ -7,6 +7,10 @@
   width: 40%;
 }
 
+.eighth-measure {
+  width: 60%;
+}
+
 .quarter-sticker {
   margin: 5% 0;
   width: 14%;
@@ -20,7 +24,7 @@
 }
 
 .eighth-sticker {
-  margin: 4% 1%;
+  margin: 4% 5px;
   font-weight: bold;
   width: 14%;
   border-radius: 50%;
