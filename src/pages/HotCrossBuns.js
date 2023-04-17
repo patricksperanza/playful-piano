@@ -25,7 +25,7 @@ const HotCrossBuns = () => {
       <div className="row">
         <QuarterMeasure notes={song[6]} />
         <div className="barline"></div>
-        <QuarterMeasure notes={song[7]} />
+        <QuarterMeasure notes={song[7]} className="end" />
       </div>
     </div>
   )

@@ -27,7 +27,7 @@ const FrereJacques = () => {
         <EighthMeasure notes={song[6]} />
       </div>
       <div className="row">
-        <EighthMeasure notes={song[7]} />
+        <EighthMeasure notes={song[7]} className="end" />
       </div>
     </div>
   )

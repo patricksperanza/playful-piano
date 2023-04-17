@@ -1,9 +1,9 @@
 import React from "react"
 import "./Measure.css"
 
-const Measure = ({ notes }) => {
+const Measure = ({ notes, className }) => {
   return (
-    <div className="measure eighth-measure">
+    <div className={`measure eighth-measure ${className}`}>
       <div className={`${notes[0]} eighth-sticker`}></div>
       <div className={`${notes[1]} eighth-sticker`}></div>
       <div className={`${notes[2]} eighth-sticker`}></div>

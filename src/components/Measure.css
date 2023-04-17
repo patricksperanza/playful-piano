@@ -7,6 +7,10 @@
   width: 40%;
 }
 
+.end {
+  border-right: 5px double gray;
+}
+
 .eighth-measure {
   width: 60%;
 }

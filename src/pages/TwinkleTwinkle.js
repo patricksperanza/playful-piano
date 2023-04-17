@@ -33,7 +33,7 @@ const TwinkleTwinkle = () => {
       <div className="row">
         <QuarterMeasure notes={song[10]} />
         <div className="barline"></div>
-        <QuarterMeasure notes={song[11]} />
+        <QuarterMeasure notes={song[11]} className="end" />
       </div>
     </div>
   )
