@@ -21,3 +21,9 @@
     max-height: none;
   }
 }
+
+@media screen and (min-height: 800px) {
+  .sheet {
+    max-height: 500px;
+  }
+}
