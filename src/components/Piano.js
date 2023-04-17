@@ -1,4 +1,5 @@
 import "./Piano.css"
+import { useEffect } from "react"
 
 import Key from "./Key"
 
@@ -28,9 +29,15 @@ const Piano = () => {
     }
   }
 
-  window.addEventListener("keydown", (e) => {
-    playNoteFromKey(e)
-  })
+  useEffect(() => {
+    window.addEventListener("keydown", (e) => {
+      playNoteFromKey(e)
+    })
+
+    return () => {
+      window.removeEventListener("keydown", playNoteFromKey)
+    }
+  }, [])
 
   return (
     <div id="piano" className="piano">
