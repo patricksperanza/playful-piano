@@ -22,11 +22,6 @@
   position: relative;
 }
 
-.key:active {
-  box-shadow: inset 0 2px 0 2px darkgrey;
-  background-color: rgb(176, 235, 255);
-}
-
 .white-keys {
   display: flex;
   z-index: 5;
@@ -38,101 +33,4 @@
   position: relative;
   z-index: 10;
   display: flex;
-}
-
-.white-key {
-  width: 47px;
-  height: 198px;
-  background-color: #eee;
-  border-radius: 0 0 5px 5px;
-  border: solid #000 2px;
-  box-sizing: border-box;
-}
-
-.black-key {
-  width: 27px;
-  height: 112px;
-  border-radius: 0 0 5px 5px;
-  box-sizing: border-box;
-  position: absolute;
-  background-color: #000;
-}
-
-.black-key:nth-child(1) {
-  left: 34px;
-}
-
-.black-key:nth-child(2) {
-  left: 81px;
-}
-
-.black-key:nth-child(3) {
-  left: 128px;
-}
-
-.black-key:nth-child(4) {
-  left: 222px;
-}
-
-.black-key:nth-child(5) {
-  left: 269px;
-}
-
-.black-key:nth-child(6) {
-  left: 363px;
-}
-
-.black-key:nth-child(7) {
-  left: 410px;
-}
-
-.black-key:nth-child(8) {
-  left: 457px;
-}
-
-.black-key:nth-child(9) {
-  left: 551px;
-}
-
-.black-key:nth-child(10) {
-  left: 598px;
-}
-
-.sticker {
-  font-size: 1.2rem;
-  text-align: center;
-  line-height: 35px;
-  font-weight: bold;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  margin: 135px auto 0 auto;
-}
-
-.green {
-  background-color: green;
-}
-
-.pink {
-  background-color: pink;
-}
-
-.orange {
-  background-color: orange;
-}
-
-.purple {
-  background-color: purple;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.tan {
-  background-color: tan;
 }

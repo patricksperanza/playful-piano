@@ -18,10 +18,12 @@ const Piano = () => {
     j: 51,
     k: 52,
   }
+
   const playNoteFromKey = (e) => {
     if (e.repeat) return
-    if (map[e.key]) {
-      const noteAudio = new Audio(`./pianoSamples/key${map[e.key]}.mp3`)
+    const num = map[e.key]
+    if (num) {
+      const noteAudio = new Audio(`./pianoSamples/key${num}.mp3`)
       noteAudio.play()
     }
   }
@@ -34,7 +36,7 @@ const Piano = () => {
     <div id="piano" className="piano">
       <div className="keys">
         <div className="black-keys">
-          <Key id="34" className="key black-key" />
+          <keygen id="34" className="key black-key" />
           <Key id="36" className="key black-key" />
           <Key id="38" className="key black-key" />
           <Key id="41" className="key black-key" />
