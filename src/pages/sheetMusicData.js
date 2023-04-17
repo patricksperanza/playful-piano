@@ -33,4 +33,14 @@ export const data = {
     ["purple", "purple", "orange", "orange"],
     ["pink", "pink", "green", ""],
   ],
+  frereJacques: [
+    ["green", "", "pink", "", "orange", "", "green", ""],
+    ["green", "", "pink", "", "orange", "", "green", ""],
+    ["orange", "", "purple", "", "yellow", "", "", ""],
+    ["orange", "", "purple", "", "yellow", "", "", ""],
+    ["yellow", "blue", "yellow", "purple", "orange", "", "green", ""],
+    ["yellow", "blue", "yellow", "purple", "orange", "", "green", ""],
+    ["green", "", "yellow", "", "green", "", "", ""],
+    ["green", "", "yellow", "", "green", "", "", ""],
+  ],
 }

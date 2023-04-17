@@ -2,13 +2,12 @@
   position: fixed;
   left: 50%;
   bottom: 0;
-  width: 784px;
-  margin-left: -387px;
+  width: 730px;
+  margin-left: -365px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 240px;
-  padding: 15px;
+  height: 220px;
   background-color: #7f7988;
   border-radius: 10px;
 }
@@ -42,8 +41,8 @@
 }
 
 .white-key {
-  width: 51px;
-  height: 210px;
+  width: 47px;
+  height: 198px;
   background-color: #eee;
   border-radius: 0 0 5px 5px;
   border: solid #000 2px;
@@ -51,8 +50,8 @@
 }
 
 .black-key {
-  width: 29px;
-  height: 120px;
+  width: 27px;
+  height: 112px;
   border-radius: 0 0 5px 5px;
   box-sizing: border-box;
   position: absolute;
@@ -60,43 +59,43 @@
 }
 
 .black-key:nth-child(1) {
-  left: 36px;
+  left: 34px;
 }
 
 .black-key:nth-child(2) {
-  left: 88px;
+  left: 81px;
 }
 
 .black-key:nth-child(3) {
-  left: 140px;
+  left: 128px;
 }
 
 .black-key:nth-child(4) {
-  left: 240px;
+  left: 222px;
 }
 
 .black-key:nth-child(5) {
-  left: 291px;
+  left: 269px;
 }
 
 .black-key:nth-child(6) {
-  left: 394px;
+  left: 363px;
 }
 
 .black-key:nth-child(7) {
-  left: 445px;
+  left: 410px;
 }
 
 .black-key:nth-child(8) {
-  left: 496px;
+  left: 457px;
 }
 
 .black-key:nth-child(9) {
-  left: 598px;
+  left: 551px;
 }
 
 .black-key:nth-child(10) {
-  left: 649px;
+  left: 598px;
 }
 
 .sticker {
