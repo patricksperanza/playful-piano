@@ -18,16 +18,16 @@ const Piano = () => {
     j: 51,
     k: 52,
   }
-  const playNoteFromKey = (key) => {
-    const noteAudio = new Audio(`./pianoSamples/key${key}.mp3`)
-    noteAudio.play()
+  const playNoteFromKey = (e) => {
+    if (e.repeat) return
+    if (map[e.key]) {
+      const noteAudio = new Audio(`./pianoSamples/key${map[e.key]}.mp3`)
+      noteAudio.play()
+    }
   }
 
   window.addEventListener("keydown", (e) => {
-    if (e.repeat) return
-    if (map[e.key]) {
-      playNoteFromKey(map[e.key])
-    }
+    playNoteFromKey(e)
   })
 
   return (
