@@ -1,70 +1,15 @@
-import React from "react"
-import key33 from "./pianoSamples/key33.mp3"
-import key34 from "./pianoSamples/key34.mp3"
-import key35 from "./pianoSamples/key35.mp3"
-import key36 from "./pianoSamples/key36.mp3"
-import key37 from "./pianoSamples/key37.mp3"
-import key38 from "./pianoSamples/key38.mp3"
-import key39 from "./pianoSamples/key39.mp3"
-import key40 from "./pianoSamples/key40.mp3"
-import key41 from "./pianoSamples/key41.mp3"
-import key42 from "./pianoSamples/key42.mp3"
-import key43 from "./pianoSamples/key43.mp3"
-import key44 from "./pianoSamples/key44.mp3"
-import key45 from "./pianoSamples/key45.mp3"
-import key46 from "./pianoSamples/key46.mp3"
-import key47 from "./pianoSamples/key47.mp3"
-import key48 from "./pianoSamples/key48.mp3"
-import key49 from "./pianoSamples/key49.mp3"
-import key50 from "./pianoSamples/key50.mp3"
-import key51 from "./pianoSamples/key51.mp3"
-import key52 from "./pianoSamples/key52.mp3"
-import key53 from "./pianoSamples/key53.mp3"
-import key54 from "./pianoSamples/key54.mp3"
-import key55 from "./pianoSamples/key55.mp3"
-import key56 from "./pianoSamples/key56.mp3"
-import key57 from "./pianoSamples/key57.mp3"
-
 import "./Piano.css"
-
-const noteMap = {
-  key33,
-  key34,
-  key35,
-  key36,
-  key37,
-  key38,
-  key39,
-  key40,
-  key41,
-  key42,
-  key43,
-  key44,
-  key45,
-  key46,
-  key47,
-  key48,
-  key49,
-  key50,
-  key51,
-  key52,
-  key53,
-  key54,
-  key55,
-  key56,
-  key57,
-}
 
 const Piano = () => {
   const playNote = (e) => {
     const number = e.target.id
-    const noteAudio = new Audio(noteMap[`key${number}`])
+    const noteAudio = new Audio(`./pianoSamples/key${number}.mp3`)
     noteAudio.play()
   }
 
   const playNoteSticker = (e) => {
     const number = e.target.parentNode.id
-    const noteAudio = new Audio(noteMap[`key${number}`])
+    const noteAudio = new Audio(`./pianoSamples/key${number}.mp3`)
     noteAudio.play()
   }
 
