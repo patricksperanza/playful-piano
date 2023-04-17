@@ -3,6 +3,33 @@ import "./Piano.css"
 import Key from "./Key"
 
 const Piano = () => {
+  const map = {
+    a: 40,
+    w: 41,
+    s: 42,
+    e: 43,
+    d: 44,
+    f: 45,
+    t: 46,
+    g: 47,
+    y: 48,
+    h: 49,
+    u: 50,
+    j: 51,
+    k: 52,
+  }
+  const playNoteFromKey = (key) => {
+    const noteAudio = new Audio(`./pianoSamples/key${key}.mp3`)
+    noteAudio.play()
+  }
+
+  window.addEventListener("keydown", (e) => {
+    if (e.repeat) return
+    if (map[e.key]) {
+      playNoteFromKey(map[e.key])
+    }
+  })
+
   return (
     <div id="piano" className="piano">
       <div className="keys">
