@@ -43,4 +43,14 @@ export const data = {
     ["green", "", "yellow", "", "green", "", "", ""],
     ["green", "", "yellow", "", "green", "", "", ""],
   ],
+  odeToJoy: [
+    ["orange", "orange", "purple", "yellow"],
+    ["yellow", "purple", "orange", "pink"],
+    ["green", "green", "pink", "orange"],
+    ["orange", "pink", "pink", ""],
+    ["orange", "orange", "purple", "yellow"],
+    ["yellow", "purple", "orange", "pink"],
+    ["green", "green", "pink", "orange"],
+    ["pink", "green", "green", ""],
+  ],
 }

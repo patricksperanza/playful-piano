@@ -10,7 +10,7 @@ const Header = ({ title, sidebar, showSidebar }) => {
     <header className="header">
       {!sidebar && <FaBars className="header-icon" onClick={showSidebar} />}
       {sidebar && <IoMdClose className="header-icon" onClick={showSidebar} />}
-      <Title className="header-title" title={title} />
+      <Title title={title} />
       <MdOutlinePiano className="header-piano" />
     </header>
   )

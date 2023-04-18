@@ -3,12 +3,8 @@ import "./Title.css"
 
 const Title = ({ title }) => {
   return (
-    <div>
-      <img
-        className="title-image"
-        src={require(`../assets/${title}`)}
-        alt="title"
-      />
+    <div className="title">
+      <h2 className="title-text">{title}</h2>
     </div>
   )
 }

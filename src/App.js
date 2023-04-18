@@ -1,27 +1,30 @@
-import { useState } from "react"
-import Sidebar from "./components/Sidebar"
-import Song from "./components/Song"
-import Piano from "./components/Piano"
-import "./App.css"
+import Root from "./components/Root"
+import HotCrossBuns from "./pages/HotCrossBuns"
+import FrereJacques from "./pages/FrereJacques"
+import TwinkleTwinkle from "./pages/TwinkleTwinkle"
+import RollingAlong from "./pages/RollingAlong"
+import OdeToJoy from "./pages/OdeToJoy"
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route,
+} from "react-router-dom"
 
-function App() {
-  const [title, setTitle] = useState("hot-cross-buns.png")
-  const [sidebar, setSidebar] = useState(false)
-
-  const show = () => {
-    setSidebar(!sidebar)
-  }
-
-  const changeTitle = (newTitle) => {
-    setTitle(newTitle)
-  }
-  return (
-    <div className="App">
-      <Song sidebar={sidebar} showSidebar={show} title={title} />
-      <Sidebar sidebar={sidebar} changeTitle={changeTitle} />
-      <Piano />
-    </div>
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Root />}>
+      <Route index element={<HotCrossBuns />} />
+      <Route path="/frere" element={<FrereJacques />} />
+      <Route path="/twinkle" element={<TwinkleTwinkle />} />
+      <Route path="/rolling" element={<RollingAlong />} />
+      <Route path="/ode" element={<OdeToJoy />} />
+    </Route>
   )
+)
+
+const App = () => {
+  return <RouterProvider router={router} />
 }
 
 export default App

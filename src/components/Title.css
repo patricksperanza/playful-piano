@@ -1,9 +1,23 @@
-.title-image {
-  width: 300px;
+.title {
+  background-image: url("../assets/pianoBackground.png");
+  background-size: cover;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.title-text {
+  text-align: center;
+}
 @media screen and (max-width: 750px) {
-  .title-image {
-    width: 180px;
+  .title {
+    width: 160px;
+    height: 40px;
+  }
+
+  .title-text {
+    font-size: 1.1rem;
   }
 }

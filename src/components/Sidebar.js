@@ -6,24 +6,21 @@ const Sidebar = ({ sidebar, changeTitle }) => {
     <div className={sidebar ? "sidebar active" : "sidebar"}>
       <ul className="sidebar-list">
         <Link to="/">
-          <li onClick={() => changeTitle("hot-cross-buns.png")}>
-            Hot Cross Buns
-          </li>
+          <li onClick={() => changeTitle("Hot Cross Buns")}>Hot Cross Buns</li>
         </Link>
         <Link to="/rolling">
-          <li onClick={() => changeTitle("rolling-along.png")}>
-            Rolling Along
-          </li>
+          <li onClick={() => changeTitle("Rolling Along")}>Rolling Along</li>
         </Link>
         <Link to="/twinkle">
-          <li onClick={() => changeTitle("twinkle-twinkle.png")}>
+          <li onClick={() => changeTitle("Twinkle Twinkle")}>
             Twinkle Twinkle
           </li>
         </Link>
         <Link to="/frere">
-          <li onClick={() => changeTitle("frere-jacques.png")}>
-            Frere Jacques
-          </li>
+          <li onClick={() => changeTitle("Frere Jacques")}>Frere Jacques</li>
+        </Link>
+        <Link to="/ode">
+          <li onClick={() => changeTitle("Ode to Joy")}>Ode to Joy</li>
         </Link>
       </ul>
     </div>
