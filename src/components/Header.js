@@ -1,7 +1,7 @@
 import React from "react"
 import Title from "./Title"
 import { FaBars } from "react-icons/fa"
-import { MdOutlinePiano } from "react-icons/md"
+import { FiSettings } from "react-icons/fi"
 import { IoMdClose } from "react-icons/io"
 import "./Header.css"
 
@@ -11,7 +11,7 @@ const Header = ({ title, sidebar, showSidebar }) => {
       {!sidebar && <FaBars className="header-icon" onClick={showSidebar} />}
       {sidebar && <IoMdClose className="header-icon" onClick={showSidebar} />}
       <Title title={title} />
-      <MdOutlinePiano className="header-piano" />
+      <FiSettings className="header-settings" />
     </header>
   )
 }
