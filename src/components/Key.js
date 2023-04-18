@@ -2,7 +2,6 @@ import "./Key.css"
 
 const Key = ({ id, className, stickerClassName, stickerText }) => {
   const playNote = (e) => {
-    console.log(e)
     const number = e.target.id || e.target.parentNode.id
     const noteAudio = new Audio(`./pianoSamples/key${number}.mp3`)
     noteAudio.play()
