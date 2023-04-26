@@ -18,7 +18,11 @@ function Root() {
   return (
     <div className="Root">
       <Song sidebar={sidebar} showSidebar={show} title={title} />
-      <Sidebar sidebar={sidebar} changeTitle={changeTitle} />
+      <Sidebar
+        sidebar={sidebar}
+        changeTitle={changeTitle}
+        setSidebar={setSidebar}
+      />
       <Piano />
     </div>
   )

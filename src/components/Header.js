@@ -11,7 +11,7 @@ const Header = ({ title, sidebar, showSidebar }) => {
       {!sidebar && <FaBars className="header-icon" onClick={showSidebar} />}
       {sidebar && <IoMdClose className="header-icon" onClick={showSidebar} />}
       <Title title={title} />
-      <FiSettings className="header-settings" />
+      <div className="header-settings"></div>
     </header>
   )
 }
